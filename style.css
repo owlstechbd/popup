@@ -469,6 +469,7 @@ img {
 	margin-bottom: 20px;
 	background: #1F6F7B;
 	display: flex;
+	padding: 10px;
 	align-items: center;
 	justify-content: center;
 	height: 100px;
@@ -561,6 +562,11 @@ img {
   @media (max-width: 844px) {
 	.box-iteam{
 		width: 48%;
+		height: 150px;
+	}
+	.box-iteam h2{
+		font-size: 16px;
+		line-height: 20px;
 	}
 	.popup-content{
 		width: 95%;
